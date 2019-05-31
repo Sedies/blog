@@ -58,7 +58,7 @@ apple(); //1
 
 그리고 명세에 따르면 let과 const의 선언에 대한 내용은 아래와 같다.
 
-![letAndConstDeclaration](.\img\letAndConstDeclaration.png)
+![letAndConstDeclaration](https://github.com/Sedies/blog/blob/master/study/Js/img/letAndConstDeclaration.png)
 
 번역기로 열심히 돌려가며 이해해본 바로는, 실행문맥의 렉시컬환경이 실행될때 let과 const는 선언이 되지만 값이 초기화 되는것은 아니다. **초기화는 선언문을 직접 만나는 시점에 이루어 지는데** 우리가 호이스팅을 배울때 변수의 선언이 끌어올려진다고 배우지만, **실제로 선언문이 끌어 올려지는것이 아니라, 마치 스코프의 최상단에 선언되는 것처럼 먼저 변수객체에 등록이 되는것**이다. 그리고 스코프 최상단부터 선언문을 만나기 전까지 '일시적인 사각지대(Temporal Dead Zone, TDZ)'가 발생하게 되는데 첫번째 예제의 에러가 바로 TDZ가 발생된 케이스다.
 
@@ -83,7 +83,7 @@ let cherry라는 변수객체에 등록이 되었지만, 초기화 및 할당은
 
 그래서 명세를 또 찾아보았다.
 
-![varDeclaration](.\img\varDeclaration.png)
+![varDeclaration](https://github.com/Sedies/blog/blob/master/study/Js/img/varDeclaration.png)
 
 위에 적힌 명세를 해석하면 var은 *선언과 동시에 초기화가* 이루어지며 undefined가 할당된다는 것을 알수 있다. 그래서 똑같이 호이스팅 되지만 var과 let은 다르게 나오는 것이다!
 
