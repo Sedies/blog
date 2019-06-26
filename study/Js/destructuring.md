@@ -158,7 +158,7 @@ apple({season:'봄', color:'초록색'}) //사과는 봄에 재배시 대부분 
 ```javascript
 //1번 퀴즈
 const alphabet = ['a','b','c','d'];
-const [a,,d] = alpahbet;
+const [a,,d] = alphabet;
 console.log(a) //?
 console.log(d) //?
 
