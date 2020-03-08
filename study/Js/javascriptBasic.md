@@ -77,3 +77,12 @@
 - check~: 무언갈 확인 후 불린값을 반환함
 - is~: 무언가의 상태를 나타낼때, 불린값을 반환함
 - self discribing code가 좋다.
+
+<br>
+<br>
+<br>
+
+##### 참고 링크
+
+- [https://ko.javascript.info](https://ko.javascript.info/)
+- 기타
