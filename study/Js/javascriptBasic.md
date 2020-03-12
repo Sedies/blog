@@ -58,7 +58,7 @@
  case A:
  case B:
   /*실행 내용*/
-  brack;
+  break;
 ```
 
 ## 함수
